@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496" prefWidth="640" styleClass=" ">
+  <children>
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="3.7974683544304" hoverColor="#808080" id="button" layoutX="88" layoutY="80" prefHeight="152" prefWidth="464" styleClass="x-flat-button " text="Пройти тест" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="38"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <FlatButton alignment="CENTER" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#808080" id="buttonAlt" layoutX="88" layoutY="256" prefHeight="152" prefWidth="464" styleClass="x-flat-button " text="Кабинет Администратора" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="34"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="16" prefHeight="32" prefWidth="448" styleClass="label " text="Пароль введён, вы: Администратор" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible=""/>
+    <FlatButton alignment="CENTER" color="#1a3399" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#808080" id="button3" layoutX="464" layoutY="16" prefHeight="32" prefWidth="160" styleClass="x-flat-button " text="Обнулить права" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="" id="data-button3" visible=""/>
+    <Separator focusTraversable="false" id="separator" layoutX="0" layoutY="56" orientation="HORIZONTAL" prefHeight="8" prefWidth="688" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible=""/>
+    <FlatButton alignment="CENTER" color="#001a80" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#808080" id="button4" layoutX="88" layoutY="432" prefHeight="48" prefWidth="216" styleClass="x-flat-button " text="Выход из программы" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="20"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+    <FlatButton alignment="CENTER" color="#001a80" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#808080" id="button5" layoutX="328" layoutY="432" prefHeight="48" prefWidth="224" styleClass="x-flat-button " text="Изменить стиль" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="20"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="592" layoutY="464" prefHeight="17" prefWidth="8" styleClass="label " text="Текст" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="" id="data-labelAlt" visible=""/>
+  </children>
+</AnchorPane>
