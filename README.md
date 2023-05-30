@@ -1,2 +1,2 @@
 # First_practis
-Учебный проект. Сборка на Laravel
+Учебный проект. Сборка на DevelNext
